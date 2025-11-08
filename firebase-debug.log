@@ -1,0 +1,169 @@
+[debug] [2025-11-08T10:31:18.187Z] ----------------------------------------------------------------------
+[debug] [2025-11-08T10:31:18.190Z] Command:       /nix/store/aspnwxp3q1wvg8jd1zg0295zmhr3lkb3-nodejs-18.19.1/bin/node /nix/store/ffh7wfr8iwmjp4jlqhykaq11v43wiif7-firebase-tools-12.4.8/lib/node_modules/firebase-tools/lib/bin/firebase.js init hosting:github
+[debug] [2025-11-08T10:31:18.191Z] CLI Version:   12.4.8
+[debug] [2025-11-08T10:31:18.191Z] Platform:      linux
+[debug] [2025-11-08T10:31:18.192Z] Node Version:  v18.19.1
+[debug] [2025-11-08T10:31:18.219Z] Time:          Sat Nov 08 2025 10:31:18 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-11-08T10:31:18.220Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-11-08T10:31:18.319Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-11-08T10:31:18.319Z] > authorizing via signed-in user (robertkaryeh101@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/user/goe-technologies
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-11-08T10:31:18.324Z] Using project from CLI flag: studio-3287632545-dae03
+[debug] [2025-11-08T10:31:18.325Z] > refreshing access token with scopes: []
+[debug] [2025-11-08T10:31:18.327Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-08T10:31:18.327Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-08T10:31:18.430Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2025-11-08T10:31:18.430Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-08T10:31:18.431Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/studio-3287632545-dae03 [none]
+[debug] [2025-11-08T10:31:18.452Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/studio-3287632545-dae03 401
+[debug] [2025-11-08T10:31:18.452Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/studio-3287632545-dae03 {"error":{"code":401,"message":"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"CREDENTIALS_MISSING","domain":"googleapis.com","metadata":{"service":"firebase.googleapis.com","method":"google.firebase.service.v1beta1.FirebaseProjectService.GetFirebaseProject"}}]}}
+[debug] [2025-11-08T10:31:18.453Z] HTTP Error: 401, Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2025-11-08T10:31:18.469Z] FirebaseError: HTTP Error: 401, Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (/nix/store/ffh7wfr8iwmjp4jlqhykaq11v43wiif7-firebase-tools-12.4.8/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/nix/store/ffh7wfr8iwmjp4jlqhykaq11v43wiif7-firebase-tools-12.4.8/lib/node_modules/firebase-tools/lib/apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project studio-3287632545-dae03. Please make sure the project exists and your account has permission to access it.
+[debug] [2025-11-08T10:31:41.562Z] ----------------------------------------------------------------------
+[debug] [2025-11-08T10:31:41.565Z] Command:       /nix/store/aspnwxp3q1wvg8jd1zg0295zmhr3lkb3-nodejs-18.19.1/bin/node /nix/store/ffh7wfr8iwmjp4jlqhykaq11v43wiif7-firebase-tools-12.4.8/lib/node_modules/firebase-tools/lib/bin/firebase.js init hosting:github
+[debug] [2025-11-08T10:31:41.566Z] CLI Version:   12.4.8
+[debug] [2025-11-08T10:31:41.566Z] Platform:      linux
+[debug] [2025-11-08T10:31:41.566Z] Node Version:  v18.19.1
+[debug] [2025-11-08T10:31:41.567Z] Time:          Sat Nov 08 2025 10:31:41 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-11-08T10:31:41.567Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-11-08T10:31:41.684Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-11-08T10:31:41.685Z] > authorizing via signed-in user (robertkaryeh101@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/user/goe-technologies
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-11-08T10:31:41.689Z] Using project from CLI flag: studio-3287632545-dae03
+[debug] [2025-11-08T10:31:41.690Z] > refreshing access token with scopes: []
+[debug] [2025-11-08T10:31:41.692Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-08T10:31:41.692Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-08T10:31:41.797Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2025-11-08T10:31:41.798Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-08T10:31:41.798Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/studio-3287632545-dae03 [none]
+[debug] [2025-11-08T10:31:41.827Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/studio-3287632545-dae03 401
+[debug] [2025-11-08T10:31:41.828Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/studio-3287632545-dae03 {"error":{"code":401,"message":"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"CREDENTIALS_MISSING","domain":"googleapis.com","metadata":{"service":"firebase.googleapis.com","method":"google.firebase.service.v1beta1.FirebaseProjectService.GetFirebaseProject"}}]}}
+[debug] [2025-11-08T10:31:41.828Z] HTTP Error: 401, Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2025-11-08T10:31:41.849Z] FirebaseError: HTTP Error: 401, Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (/nix/store/ffh7wfr8iwmjp4jlqhykaq11v43wiif7-firebase-tools-12.4.8/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/nix/store/ffh7wfr8iwmjp4jlqhykaq11v43wiif7-firebase-tools-12.4.8/lib/node_modules/firebase-tools/lib/apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project studio-3287632545-dae03. Please make sure the project exists and your account has permission to access it.
+[debug] [2025-11-08T10:32:31.336Z] ----------------------------------------------------------------------
+[debug] [2025-11-08T10:32:31.344Z] Command:       /nix/store/aspnwxp3q1wvg8jd1zg0295zmhr3lkb3-nodejs-18.19.1/bin/node /nix/store/ffh7wfr8iwmjp4jlqhykaq11v43wiif7-firebase-tools-12.4.8/lib/node_modules/firebase-tools/lib/bin/firebase.js init hosting:github
+[debug] [2025-11-08T10:32:31.344Z] CLI Version:   12.4.8
+[debug] [2025-11-08T10:32:31.345Z] Platform:      linux
+[debug] [2025-11-08T10:32:31.345Z] Node Version:  v18.19.1
+[debug] [2025-11-08T10:32:31.346Z] Time:          Sat Nov 08 2025 10:32:31 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-11-08T10:32:31.347Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-11-08T10:32:31.509Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-11-08T10:32:31.510Z] > authorizing via signed-in user (robertkaryeh101@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/user/goe-technologies
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-11-08T10:32:31.514Z] Using project from CLI flag: studio-3287632545-dae03
+[debug] [2025-11-08T10:32:31.516Z] > refreshing access token with scopes: []
+[debug] [2025-11-08T10:32:31.518Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-08T10:32:31.519Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-08T10:32:31.618Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2025-11-08T10:32:31.618Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-08T10:32:31.619Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/studio-3287632545-dae03 [none]
+[debug] [2025-11-08T10:32:31.640Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/studio-3287632545-dae03 401
+[debug] [2025-11-08T10:32:31.640Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/studio-3287632545-dae03 {"error":{"code":401,"message":"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"CREDENTIALS_MISSING","domain":"googleapis.com","metadata":{"service":"firebase.googleapis.com","method":"google.firebase.service.v1beta1.FirebaseProjectService.GetFirebaseProject"}}]}}
+[debug] [2025-11-08T10:32:31.641Z] HTTP Error: 401, Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2025-11-08T10:32:31.660Z] FirebaseError: HTTP Error: 401, Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (/nix/store/ffh7wfr8iwmjp4jlqhykaq11v43wiif7-firebase-tools-12.4.8/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/nix/store/ffh7wfr8iwmjp4jlqhykaq11v43wiif7-firebase-tools-12.4.8/lib/node_modules/firebase-tools/lib/apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project studio-3287632545-dae03. Please make sure the project exists and your account has permission to access it.
+[debug] [2025-11-08T10:32:46.067Z] ----------------------------------------------------------------------
+[debug] [2025-11-08T10:32:46.071Z] Command:       /nix/store/aspnwxp3q1wvg8jd1zg0295zmhr3lkb3-nodejs-18.19.1/bin/node /nix/store/ffh7wfr8iwmjp4jlqhykaq11v43wiif7-firebase-tools-12.4.8/lib/node_modules/firebase-tools/lib/bin/firebase.js projects:list
+[debug] [2025-11-08T10:32:46.072Z] CLI Version:   12.4.8
+[debug] [2025-11-08T10:32:46.072Z] Platform:      linux
+[debug] [2025-11-08T10:32:46.072Z] Node Version:  v18.19.1
+[debug] [2025-11-08T10:32:46.073Z] Time:          Sat Nov 08 2025 10:32:46 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-11-08T10:32:46.073Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-11-08T10:32:46.171Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-11-08T10:32:46.172Z] > authorizing via signed-in user (robertkaryeh101@gmail.com)
+[debug] [2025-11-08T10:32:46.175Z] > refreshing access token with scopes: []
+[debug] [2025-11-08T10:32:46.177Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-08T10:32:46.177Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-08T10:32:46.269Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2025-11-08T10:32:46.269Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-08T10:32:46.272Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2025-11-08T10:32:46.292Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 401
+[debug] [2025-11-08T10:32:46.293Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2025-11-08T10:32:46.294Z] HTTP Error: 401, Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2025-11-08T10:32:46.322Z] FirebaseError: HTTP Error: 401, Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (/nix/store/ffh7wfr8iwmjp4jlqhykaq11v43wiif7-firebase-tools-12.4.8/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/nix/store/ffh7wfr8iwmjp4jlqhykaq11v43wiif7-firebase-tools-12.4.8/lib/node_modules/firebase-tools/lib/apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.

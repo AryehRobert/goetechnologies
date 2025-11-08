@@ -1,0 +1,15 @@
+name: contact-form-emailer
+specVersion: v1beta
+version: 0.0.1
+description: An extension that sends an email from a contact form.
+author:
+  authorName: Firebase
+license: Apache-2.0
+resources:
+  - name: mail
+    type: firebaseextensions.v1beta.function
+    description: Handles the sending of email from a contact form
+    properties:
+      location: us-central1
+      runtime: nodejs20
+      httpsTrigger: {}
